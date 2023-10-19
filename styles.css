@@ -138,3 +138,15 @@ footer {
 	color: white;
 	justify-content: space-around;
 }
+
+@media screen and (max-width: 800px) {
+	.columns-wraper {
+		flex-direction: column;
+		align-items: center;
+	}
+	.columns-wraper>section {
+		width: 80%;
+		max-width: 80%;
+		margin: 32px;
+	}
+}
